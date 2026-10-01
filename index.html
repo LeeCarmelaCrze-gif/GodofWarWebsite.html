@@ -7,17 +7,122 @@
         <style>
             * {box-sizing: border-box}
             html {font-size: 62.5%}
+            @font-face {
+                font-family: "GodofWar";
+                src: url(fonts/GODOFWAR.TTF);
+            }
             
-            body { background-image: url('your-image.jpg'); }
+            
+            body { 
+                margin: 0;
+                background-color: black;
+            }
+
+            header {
+                background-image: url(images/firstpanelbkg.jpg);
+                height: 903px;
+                width: 1440px;
+            }
+
+            nav {
+                background-color: rgba(189, 215, 225, 0.35);
+                width: 1440px;
+                height: 66px;  
+                display: flex;     
+                    justify-content: space-between;
+                    
+            }
+
+            .nav {
+                width: 832px;
+                display:flex;
+                gap: 100px;
+                justify-content: center;
+                align-items: center;
+                    height: 66px;
+            }
+
+            .nav a { 
+                font-size: 2rem;
+                font-family: "GodofWar";
+                color: #000;
+                text-align: center;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-decoration: none;
+            }
+
+            .Carousel {
+                width: 1440px;
+                 text-align: center;
+            }
+
+            .headings {
+                color: #FFF;
+                font-family: GodOfWar;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+
+            }
+
+            .Introduction {
+                background-color: url(images/Description\ Graphics.png);
+                width: 1440px;
+                height: 922px;
+            }
+
+            .backstory {
+                width: 743px;
+                height: 495px;
+                display:flex;
+            }
+
+            .backstory a {
+                font-size: 2rem;
+                font-family:;
+                color: #FFF;
+                text-align: center;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
         </style>
 
 
 
     </head>
     <body>
+        <header>
+            <nav>
+                <img src="images/ps5 logo 1.png" alt="">
+
+                <div class="nav">
+                    <a href="#">Games</a>
+                     <a href="#">Characters</a>
+                      <a href="#">Realms</a>
+                       <a href="#">Weapons</a>
+                </div>
+            </nav>
+        </header>
+        <div class="Carousel">
+            <span class="headings">
+                Discover God Of War
+
+            </span>
+            <img src="images/Game selection.png">
 
 
+        </div>
 
+        <div class="Introduction">
+            <span class="backstory">
+                God of War (2018) follows Kratos, a former warrior who has left his violent past behind and now lives quietly in the Norse realm of Midgard with his young son, Atreus. After the death of Atreus’s mother, Kratos and his son begin a journey to fulfill her final request: to spread her ashes from the highest point in the realms. What begins as a simple journey quickly becomes much more dangerous as they encounter powerful creatures, mysterious strangers, ancient gods, and challenges connected to the world around them. Along the way, Kratos must teach Atreus how to survive while also learning how to become a better father. Their relationship is an important part of the story, as Kratos struggles to communicate with his son and protect him while keeping much of his own past hidden. As they travel through Midgard and encounter different characters and realms, they gradually uncover more about the history of the world and the forces that stand in their way. The journey pushes both Kratos and Atreus to confront their fears, trust one another, and understand what it means to be a family. The game combines Norse mythology, exploration, combat, and emotional storytelling to create a story centered around grief, parenthood, trust, and moving forward from the past.
+        </div>
 
     </body>
 
